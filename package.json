@@ -1,0 +1,18 @@
+{
+  "name": "http-and-httpBackend-issues",
+  "version": "0.0.0",
+  "description": "",
+  "main": "entry.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^3.44.2",
+    "open": "0.0.5",
+    "st": "^0.4.1"
+  },
+  "scripts": {
+    "build": "browserify entry.js > bundle.js",
+    "serve": "npm run build && node serve.js"
+  },
+  "author": "Ben Clinkinbeard <ben.clinkinbeard@gmail.com> (http://benclinkinbeard.com/)",
+  "license": "ISC"
+}
